@@ -126,7 +126,7 @@ public class TestStringUtilities {
         Character expected = 'c';
 
         // : When
-        Character actual = StringUtilities.getMiddleCharacter(input);
+        Character actual = StringUtilities.getMiddleCharacters(input);
 
         // : Then
         Assert.assertEquals(expected.toString(), actual.toString());

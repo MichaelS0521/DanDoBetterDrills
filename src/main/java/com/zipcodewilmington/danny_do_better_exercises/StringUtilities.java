@@ -81,6 +81,14 @@ public class StringUtilities {
         return result;
     }
 
+    public static Character getMiddleCharacters(String inputValue){
+        int length = inputValue.length();
+        int c = length / 2 - 1;
+        char result = inputValue.charAt(c);
+
+        return result;
+    }
+
     /**
      * @param spaceDelimitedString a string, representative of a sentence, containing spaces
      * @return the first sequence of characters
